@@ -1,11 +1,10 @@
-itd apiVersion: argoproj.io/v1alpha1
-itd apiVersion: argoproj.io/v1alpha1
+apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: devops4expense
+  name: devops4expens-argocd-application-1
   namespace: devops4expense
 spec:
-  project: devops4expense
+  project: default
 
   source:
     repoURL: https://github.com/Snuffules/argocd-app-config.git
@@ -13,7 +12,7 @@ spec:
     path: dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: devops4expense
+    namespace: myapp
 
     automated:
       selfHeal: true
