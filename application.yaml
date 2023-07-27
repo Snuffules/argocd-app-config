@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: devops4expense-ArgoCD-1-app
+  name: devops4expense-argocd-1-application
   namespace: devops4expense
 spec:
   project: devops4expense
