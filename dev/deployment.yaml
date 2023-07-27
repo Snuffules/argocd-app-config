@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: devops4expense-argocd-test-1
-        image: snuffules/ultimate-cicd:latest
+        image: snuffules/ultimate-cicd:7
         ports:
         - containerPort: 8080
