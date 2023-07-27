@@ -4,7 +4,7 @@ metadata:
   name: devops4expense-ArgoCD-test-1-application
   namespace: devops4expense
 spec:
-  project: default
+  project: devops4expense
 
   source:
     repoURL: https://github.com/Snuffules/argocd-app-config.git
