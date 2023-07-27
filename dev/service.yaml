@@ -4,7 +4,7 @@ metadata:
   name: devops4expense-argocd-test-1
 spec:
   selector:
-    app: devops4expense-ArgoCD-test-1
+    app: devops4expense-argocd-test-1
   ports:
   - port: 8080
     protocol: TCP
